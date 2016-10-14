@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("nLog.KinesisTarget")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("NLog.Targets.Kinesis")]
+[assembly: AssemblyDescription("A NLog Target for Kinesis")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("nLog.KinesisTarget")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyProduct("NLog.Targets.Kinesis")]
+[assembly: AssemblyCopyright("Copyright Simon Cuce © 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
