@@ -6,7 +6,7 @@ using NLog.Config;
 
 namespace NLog.Targets.Kinesis
 {
-    [Target("KinesisTarget")]
+    [Target("Kinesis")]
     public sealed class KinesisTarget : TargetWithLayout
     {
         private readonly KinesisUpload _upload;
