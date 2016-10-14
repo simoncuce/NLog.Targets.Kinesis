@@ -1,0 +1,4 @@
+src/packages/**
+src/.vs/**
+src/NLog.Targets.Kinesis/bin/**
+src/NLog.Targets.Kinesis/obj/**
