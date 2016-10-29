@@ -26,7 +26,8 @@ PM> Install-Package NLog.Targets.Kinesis -Version 1.0.0
 The package has two depenencies and will download automatically
 
 ```
-AWSSDK (>= 2.3.13.1)
+AWSSDK.Core (>= 3.3.0.0)
+AWSSDK.Kinesis (>= 3.3.0.0)
 NLog.Config (>= 4.3.10)
 ```
 
