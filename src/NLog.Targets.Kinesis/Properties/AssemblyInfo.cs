@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("NLog.Targets.Kinesis")]
 [assembly: AssemblyDescription("A NLog Target for Kinesis")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Simon Cuce")]
 [assembly: AssemblyProduct("NLog.Targets.Kinesis")]
 [assembly: AssemblyCopyright("Copyright Simon Cuce © 2016")]
 [assembly: AssemblyTrademark("")]

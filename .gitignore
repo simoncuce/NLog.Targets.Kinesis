@@ -2,3 +2,4 @@ src/packages/**
 src/.vs/**
 src/NLog.Targets.Kinesis/bin/**
 src/NLog.Targets.Kinesis/obj/**
+src/NLog.Targets.Kinesis/NLog.Targets.Kinesis.csproj.user
