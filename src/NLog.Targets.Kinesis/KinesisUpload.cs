@@ -34,6 +34,8 @@ namespace NLog.Targets.Kinesis
                     PartitionKey = _partitionKey
                 };
 
+                Log.Logger().Debug("[KinesisUpload.Write] Sync Write");
+
                 return _client.PutRecord(requestRecord);
             }
         }
@@ -48,6 +50,8 @@ namespace NLog.Targets.Kinesis
                     Data = ms,
                     PartitionKey = _partitionKey
                 };
+
+                Log.Logger().Debug("[KinesisUpload.Write] Async Write");
 
                 return await _client.PutRecordAsync(requestRecord);
             }
